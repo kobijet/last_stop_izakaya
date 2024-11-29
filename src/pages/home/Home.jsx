@@ -7,9 +7,9 @@ export default function Home() {
         <>
             <section id="home">
                 <h2 id="home-header">Home</h2>
-                <img id="hero-image" className="shadow-low" src="/media/interior_4_blur.jpg" />
+                <img id="hero-image" className="shadow-low" src="/last_stop_izakaya/media/interior_4_blur.jpg" />
                 <div id="hero-div">
-                    <img id="hero-logo" className="shadow-high" src="/media/yoko_yoko_logo.png" alt="logo" />
+                    <img id="hero-logo" className="shadow-high" src="/last_stop_izakaya/media/yoko_yoko_logo.png" alt="logo" />
                     
                     <h2 id="hero-title">いらっしゃいませ</h2>
                     <p id="hero-subtitle">“Irasshaimase!”</p>
@@ -36,8 +36,8 @@ export default function Home() {
                 Izakaya section
             */}
             <div className="img-container">
-                    <img className="img200 img-floatright shadow-high" src="/media/sapporo_spicy.jpg" />
-                    <img className="img200 shadow-high" src="/media/drinks_3.jpg" />
+                    <img className="img200 img-floatright shadow-high" src="/last_stop_izakaya/media/sapporo_spicy.jpg" />
+                    <img className="img200 shadow-high" src="/last_stop_izakaya/media/drinks_3.jpg" />
             </div>
             <Infocard 
                 title="Izakaya"
@@ -52,7 +52,7 @@ export default function Home() {
                 Food section
             */}
             <div className="img-container">
-                <img className="img300 img-floatcenter shadow-high" src="media/yokohama.jpg" />
+                <img className="img300 img-floatcenter shadow-high" src="/last_stop_izakaya/media/yokohama.jpg" />
             </div>
             <Infocard 
                 title="Savor Japan" 
@@ -67,9 +67,9 @@ export default function Home() {
                 Drinks section
             */}
             <div className="img-container">
-                <img className="img200 shadow-high" src="/media/drinks_1.jpg" />
-                <img className="img200 img-floatright shadow-high" src="/media/drinks_2.jpg" />
-                <img className="img200 shadow-high" src="/media/tropic_haze.jpg" />
+                <img className="img200 shadow-high" src="/last_stop_izakaya/media/drinks_1.jpg" />
+                <img className="img200 img-floatright shadow-high" src="/last_stop_izakaya/media/drinks_2.jpg" />
+                <img className="img200 shadow-high" src="/last_stop_izakaya/media/tropic_haze.jpg" />
             </div>
             <Infocard 
                 title="Sake, cocktails, & drinks"

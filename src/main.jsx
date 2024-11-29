@@ -16,16 +16,16 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        path: "/",
+        path: "/last_stop_izakaya",
         element: <Home />,
-        index: true
+        index: true,
       },
       {
-        path: "/food",
+        path: "/last_stop_izakaya/food",
         element: <Food />
       },
       {
-        path: "/drinks",
+        path: "/last_stop_izakaya/drinks",
         element: <Drinks />
       }
     ]

@@ -24,15 +24,15 @@ export default function Navbar() {
         <div id="navContainer" className="shadow-high">
             <div id="nav-header">
                 <button id="nav-hamburger" onClick={toggleNav}><LuAlignJustify size={24} /></button>
-                <Link id="nav-logo" to="/"><img src="/media/yoko_yoko_logo.png"/></Link>
+                <Link id="nav-logo" to="/last_stop_izakaya/"><img src="/last_stop_izakaya/media/yoko_yoko_logo.png"/></Link>
             </div>
             <nav>
                 <ul>
-                    <li><Link to="/" onClick={toggleNav}><img src="/media/yoko_yoko_logo.png"/></Link></li>
-                    <li><button><Link to="/" onClick={toggleNav}>Home</Link></button></li>
-                    <li><button><Link to="/food" onClick={toggleNav}>Food</Link></button></li>
-                    <li><button><Link to="/drinks" onClick={toggleNav}>Drinks</Link></button></li>
-                    <li><button><Link to="/contact" onClick={toggleNav}>Contact</Link></button></li>
+                    <li><Link to="/last_stop_izakaya/" onClick={toggleNav}><img src="/last_stop_izakaya/media/yoko_yoko_logo.png"/></Link></li>
+                    <li><button><Link to="/last_stop_izakaya/" onClick={toggleNav}>Home</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/food" onClick={toggleNav}>Food</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/drinks" onClick={toggleNav}>Drinks</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/contact" onClick={toggleNav}>Contact</Link></button></li>
                 </ul>
             </nav>
         </div>

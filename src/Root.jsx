@@ -8,7 +8,7 @@ export default function Root() {
     const location = useLocation();
 
     useEffect(() => {
-        if (location.pathname == "/") {
+        if (location.pathname == "/last_stop_izakaya/") {
             document.querySelector("#navContainer").style.display = "none";
         } else {
             document.querySelector("#navContainer").style.display = "flex";
@@ -29,7 +29,7 @@ export default function Root() {
                 <Outlet />
             </main>
             <footer className="rubik-regular">
-                <img src="/media/yoko_yoko_logo.png" />
+                <img src="/last_stop_izakaya/media/yoko_yoko_logo.png" />
                 <div>
                     <p>315 Pacific Avenue, Bremerton, WA 98337</p>
                 </div>
