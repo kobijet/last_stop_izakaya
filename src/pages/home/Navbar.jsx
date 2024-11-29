@@ -11,12 +11,10 @@ export default function Navbar() {
         if (window.innerWidth >= 1024)
         {
             setLocked(true);
-
         } else {
             setLocked(false);
         }
 
-        // Open navbar on initial lock
         if (!locked)
         {
             toggleNav();
@@ -38,7 +36,7 @@ export default function Navbar() {
         }
     }
 
-    const navFunction = "toggleNav";
+    const navFunction = toggleNav;
 
     return (
         <div id="navContainer" className="shadow-high">
