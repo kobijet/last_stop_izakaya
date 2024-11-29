@@ -1,0 +1,465 @@
+{
+    "Food": {
+            "0": {
+				"heading": "Ramen/Noodles",
+				"items": [
+					{
+						"name": "Yokohama",
+						"description": "Our specialty-Also known as lekei (pronounced E-A-K). Thick noodles, in pork tonkotsu & chicken broth seasoned with shoyu tare. Topped with pork belly",
+						"price": 0.00,
+						"featured": true
+					},
+					{
+						"name": "Fukuoka",
+						"description": "Thin noodles in a pork tonkotsu broth seasoned with shio tare. Topped with five spice ground pork, shitake mushrooms, and menma. (Gluten free option)",
+						"price": 0.00
+					},
+					{
+						"name": "Tokyo",
+						"description": "Thin noodles in a clear chicken broth seasoned with shoyu tare & finished with dried niboshi. Topped with pork belly chashu, narutokmaki, shitake mushrooms, and menma.",
+						"price": 0.00,
+						"featured": true
+					},
+					{
+						"name": "Misawa",
+						"description": "Thin noodles in a chicken and soy based broth flavored with shiro miso tare. Topped with chashu chicken, spinach, corn, and a pat of butter.",
+						"price": 0.00
+					},
+					{
+						"name": "Sapporo",
+						"description": "Thick noodles in pork tonkotsu & chicken broth seasoned with a slightly spicy aka miso tare. Pork belly chashu, corn, a pat of butter, marinated mustard greens, & menma.",
+						"price": 0.00
+					},
+					{
+						"name": "Hiyashi Chuka",
+						"description": "Blanched ramen noodles tossed in a light shoyu & rice vinegar dressing. Topped with sliced sweet peppers, tomatoes, spinach, and more ramen toppings. Add-ons available. (Vegan)",
+						"price": 0.00
+					},
+					{
+						"name": "Vegan Tokyo",
+						"description": "Thin noodles served in a kombu dashi broth seasoned with shio tare. Topped with fried tofu, shitake mushrooms, and menma.",
+						"price": 0.00,
+						"featured": true
+					},
+					{
+						"name": "Udon",
+						"description": "Thick, chewy flour noodles served in a kombu dashi broth seasoned with shio tare. Build-your-own bowl add-ons available. (Vegan)",
+						"price": 0.00
+					},
+					{
+						"AO": [
+							{
+								"name": "Extras",
+								"description": "Ajitama (ramen egg) | Negi (green onion) | Nori (seaweed), Menma (bamboo) | Corn | Spinach | Marinated mustard greens | Bean sprouts | Shitake mushrooms | Kikurage (marinated wood ear mushrooms) | Narutomaki (fish cake)"
+							},
+							{
+								"name": "Sauces",
+								"description": "Black garlic myu sauce | Jigoku tare (house hot sauce)"
+							},
+							{
+								"name": "Proteins",
+								"description": "Fried tofu | Pork belly chashu | Chicken chashu | Five spice ground pork"
+							},
+							{
+								"name": "Kaedama",
+								"description": "Extra serving of fresh noodles"
+							}
+						]
+					}
+				]
+            },
+            "1": {
+				"heading": "Japanese Curry",
+				"items": [
+					{
+						"name": "Vegetable Curry",
+						"description": "Vegan and vegetarian curry. Build-your-own with add-ons. (Vegan, Vegetarian)",
+						"price": 0.00
+					},
+					{
+						"name": "Karaage Chicken Curry",
+						"description": "Marinated chicken thighs breaded & fried.",
+						"price": 0.00
+					},
+					{
+						"name": "Pork Katsu Curry",
+						"description": "Panko breaded, fried, and sliced pork loin.",
+						"price": 0.00,
+						"featured": true
+					},
+					{
+						"name": "Yokosuka Beef Curry",
+						"description": "Thinly sliced and seared beef.",
+						"price": 0.00
+					},
+					{
+						"name": "Curry Udon",
+						"description": "Udon noodles in a thick curry Kombu dashi. Add-ons available. (Vegan)",
+						"price": 0.00,
+						"featured": true
+					},
+					{
+						"AO": [
+							{
+								"name": "Extras",
+								"description": "Fried tofu | Ajitama (ramen egg) | Shredded cheese | Negi (green onion) | Menma (bamboo) | Spinach"
+							},
+							{
+								"name": "Proteins",
+								"description": "Fried tofu | Five spice ground pork | Pork katsu"
+							}
+						]
+					}
+				]
+            },
+            "2": {
+				"heading": "Izakaya",
+				"items": [
+					{
+						"name": "House Salad",
+						"description": "Baby spinach and arugula topped with bean sprouts & sliced radish, served with shoyu vinaigrette or sesame dressing. (Gluten free, Vegetarian, Vegan option)",
+						"price": 0.00
+					},
+					{
+						"name": "Edamame",
+						"description": "Seasoned with salt & Shichimi Togarashi. (Gluten free, Vegan)",
+						"price": 0.00
+					},
+					{
+						"name": "Garlic Shoyu Edamame",
+						"description": "Tossed in a slightly spicy garlic & shoyu sauce with sesame seeds. (Vegan)",
+						"price": 0.00
+					},
+					{
+						"name": "Agedashi Tofu",
+						"description": "Fried tofu served in our kombu dashi broth with sesame seed & green onion. (Vegan)",
+						"price": 0.00
+					},
+					{
+						"name": "Ube Wedges",
+						"description": "Fried Okinawan purple potato wedges. Served with miso Kewpie mayo. (Gluten free, Vegetarian)",
+						"price": 0.00
+					},
+					{
+						"name": "Furikake Fries",
+						"description": "Furikake seasoning, miso Kewpie & Jigoku tare spicy ketchup side. (Gluten free, Vegetarian, Vegan option)",
+						"price": 0.00
+					},
+					{
+						"name": "Ramen Loaded Fries",
+						"description": "Pork belly chashu, green onion, miso Kewpie drizzle & jigoku tare ketchup side.",
+						"price": 0.00
+					},
+					{
+						"name": "Shishito Peppers",
+						"description": "Blistered mild & thin-walled peppers. Served with lemon & kewpie mayo. (Gluten free, Vegan option)",
+						"price": 0.00
+					},
+					{
+						"name": "Shishito Peppers & Pork Belly",
+						"description": "Blistered shishito peppers topped with pork belly chashu & balsamic reduction. Served with lemon & kewpie mayo.",
+						"price": 0.00
+					},
+					{
+						"name": "Shiitake Gyoza",
+						"description": "Handmade gyoza. Shiitake mushroom, cabbage, green onion, & more filling served with a house shoyu dipping sauce. (Vegetarian)",
+						"price": 0.00
+					},
+					{
+						"name": "Pork Belly Chashu Gyoza",
+						"description": "Handmade gyoza. Pork belly chashu & vegetable filling served with a house shoyu dipping sauce. ",
+						"price": 0.00
+					},
+					{
+						"name": "Karaage Chicken Bites",
+						"description": "Marinated chicken thighs, breaded, & fried. Served with lemon & kewpie mayo. Available in six or ten count portions. (Gluten free)",
+						"price": 0.00
+					},
+					{
+						"name": "Yakitori Chicken Skewers",
+						"description": "Two grilled, shoyu marinated chicken thigh skewers.",
+						"price": 0.00
+					},
+					{
+						"name": "Flank Steak Skewers",
+						"description": "Two grilled 2oz. Skewers served with spicy mustard & wasabi. (Gluten free)",
+						"price": 0.00
+					},
+					{
+						"name": "Pork Skewers",
+						"description": "Two grilled skewers marinated in sweet Mirin. Spicy mustard side. (Gluten-free)",
+						"price": 0.00
+					}
+				]                           
+			}
+        },
+	"Drinks": {
+			"0": {
+				"heading": "Sake",
+				"items": [
+					{
+						"name": "Gekkeikan",
+						"description": "Cold or hot. In a glass (5) or a caraffe (9).",
+						"price": 5.00
+					},
+					{
+						"name": "Yuzu Shuwah",
+						"description": "Sparkling sake. 330mL bottle (12)",
+						"price": 12.00
+					},					
+					{
+						"name": "Tour of Honshu Flight",
+						"description": "Yuho 'Eternal Embers' Junmai | Tensei 'Endless Summer' | Tokubetsu Honjozo | Tokyo 'Sunrise' Junmai Ginjo, Joto 'The Blue One' Nigori.",
+						"price": 0.00
+					},
+					{
+						"name": "Tyku Flight",
+						"description": "Premium Junmai (White), Super Premium Junmai Ginjo (Black) | Cucumber Junmai | Coconut Nigori",
+						"price": 12.00
+					},
+					{
+						"name": "Sake by the glass",
+						"description": "Yuho 'Eternal Embers Junmai' | Joto 'The Blue One' Nigori"
+					}
+				]
+			},
+			"1": {
+				"heading": "Chu-hai",
+				"items": [
+					{
+						"name": "Chu-hai",
+						"description": "Shochu mixed with your choice of flavor & soda water.",
+						"price": 5.00,
+						"featured": true
+					},
+					{
+						"AO": [
+							{
+								"name": "House-made purees",
+								"description": "Strawberry | Raspberry | Blackberry | Mango | Peach | Pineapple"
+							},
+							{
+								"name": "Fresh-pressed fruit",
+								"description": "Lemon | Lime | Orange | Pink Grapefruit"
+							},
+							{
+								"name": "Syrups & more",
+								"description": "Honey yuzu | Melon | Green Apple | Grape | Oolong | Sweet Matcha | Calpico"
+							}
+						]
+					},
+					{
+						"name": "Toki Classic Hai",
+						"description": "Toki whisky, soda, & lemon"
+					},
+					{
+						"name": "Matcha Hai",
+						"description": "Toki whisky, sour, matcha, & soda"
+					},
+					{
+						"name": "Toki Shoga Hai",
+						"description": "Tok whisky, ginger syrup, bitters, & soda"
+					},
+					{
+						"name": "Umeshu Hai",
+						"description": "Umeshu, umeboshi, & soda"
+					},
+					{
+						"name": "Natsu Tea",
+						"description": "Toki whisky, soda, & lemon"
+					},
+					{
+						"name": "Tokyo G&T",
+						"description": "PNW meets Nippon. Roku gin, Cascadia liqueur, Umeshu, matcha, soda, & lemon"
+					},
+					{
+						"name": "Hana Negroni",
+						"description": "Roku gin, Campari, Apricot Luxardo, Campano Antica vermouth, & plum bitters. On the rocks with orange peel."
+					},
+					{
+						"name": "The Suka",
+						"description": "Bicard rum, aperol, midori, agave, lime, & watermelon puree. Served on the rocks with a black sugar rim."
+					},
+					{
+						"name": "Shisho Mojito",
+						"description": "Bacardi rum, Tan Taka Tan Shisho shochu, simple, fresh-pressed lime, muddled mint & shisho, & soda water."
+					},
+					{
+						"name": "The Bitter Dove",
+						"description": "Sauza tequila, Campari, Agave, fresh-pressed lime & grapefruit, topped with soda water & a hibiscus salt rim"
+					},
+					{
+						"name": "Old Fashioned",
+						"description": "Buffalo Trace bourbon, orange brown sugar simple, & Angostura bitters. Served on the rocks with orange peel and a Gran Gala infused cherry."
+					},
+					{
+						"name": "Sazerac",
+						"description": "Sazerac rye, Mata Hari absinthe, Peychaud's & Angostrua bitters, & agave. Served on the rocks with orange & lemon peel."
+					},
+					{
+						"name": "Manhattan",
+						"description": "Templeton rye, Punt-e-Mas vermouth, Angostura bitters, & agave. Served up with a Gran Gala infused cherry."
+					},
+					{
+						"name": "The Smoked Ishikawa",
+						"description": "A Japanese Rob Roy. Nobushi blended whisky, Carpano Antica vermouth, Angostura & orange bitters. Served up with a Gran Gala infused cherry & a smoke cloud."
+					}
+				]
+			},
+			"2": {
+				"heading": "Vending-inspired Cocktails",
+				"items": [
+					{
+						"name": "Mitsuya Yuzu-Drop",
+						"description": "Svedka vodka, mitsuya cider simple, yuzu juice, & fresh pressed lemon. Served up with a Mitsuya Cider candy rim"
+					},
+					{
+						"name": "Strawberry Milk",
+						"description": "Sugar Island coconut & gold rum, Strawberry consomme & puree, coconut cream, Calpico soda. Served on the rocks with fresh strawberry & jelly hearts."
+					},
+					{
+						"name": "Ube Milk Tea",
+						"description": "Earl Gray infused Svedka vodka, ube condensed milk, simple, & half and half. Served on the rocks with boba pearls."
+					},
+					{
+						"name": "Royal Jelly",
+						"description": "Shochu, orange bitters, grape reduction, glitter simple, fresh pressed lime & cranberry juice. Served up with grape coconut jelly."
+					},
+					{
+						"name": "Matcha Smash",
+						"description": "The Tottori whisky, honey syrup, muddled mint & lemon. Served on the rocks with a matcha syrup finish."
+					},
+					{
+						"name": "Boss Old Fashioned",
+						"description": "The Tottori Ex-bourbon barrel whisky, BOSS coffee reduction, Okinawan black sugar syrup, orange bitters & peel. Served on the rocks with a Gran Gala infused cherry.",
+						"featured": true
+					}
+				]
+			},
+			"3": {
+				"heading": "Japanese Whisky Flights",
+				"items": [
+					{
+						"name": "House",
+						"description": "Suntory Toki | The SAN-IN blend | The Tottori Ex-Bourbon Barrel | Sunday's"
+					},
+					{
+						"name": "Oceanic",
+						"description": "Hatozaki | Hatozaki small batch | Umiki | Kujira 8yr"
+					},
+					{
+						"name": "Ohishi",
+						"description": "Sherry cask | Sakura cask | Port cask | Islay cask finish"
+					},
+					{
+						"name": "Fukano",
+						"description": "2020 Edition | Vault Reserve 2 | 10-year old | 12-year single cask"
+					}
+				]
+			},
+			"4": {
+				"heading": "Draft Beer & Cider",
+				"items": [
+					{
+						"name": "Sapporo",
+						"description": "Japanese - Pale Lager - 4.9% ABV / 15 IBU"
+					},
+					{
+						"name": "Asahi Super Dry",
+						"description": "Japan - Rice Lager - 5% ABV / 20 IBU"
+					},
+					{
+						"name": "Nitro Honey Cream Ale - Diamond Knot",
+						"description": "WA - Cream Ale - 4.6% ABV / 7 IBU"
+					},
+					{
+						"name": "Hefeweizen - Whistling Pig",
+						"description": "CO - Blonde Ale - 5.4% ABV / 22 IBU"
+					},
+					{
+						"name": "Ridgetop Red - Silver City",
+						"description": "WA - Irish Red - 6% ABV / 15 IBU"
+					},
+					{
+						"name": "Tropic Haze IPA - Silver City",
+						"description": "WA - Hazey IPA - 6.5% ABV / 35 IBU"
+					},
+					{
+						"name": "Bodhizafa IPA - Georgetown",
+						"description": "WA - IPA - 6.9% / 80 IBU"
+					},
+					{
+						"name": "Tucana Tangerine Sour - Ecliptic",
+						"description": "OR - Sour - 4.8% ABV"
+					},
+					{
+						"name": "Semi-Sweet - Seattle Cider Company",
+						"description": "WA - Cider - 6.5% ABV"
+					},
+					{
+						"name": "Lemonade Tea Cider - Incline Cider Company",
+						"description": "WA - Cider 6.9% ABV"
+					}
+				]
+			},
+			"5": {
+				"heading": "Other Beers",
+				"items": [
+					{
+						"name": "Asahi Super Dry",
+						"description": "12 oz. can"
+					},
+					{
+						"name": "Orion",
+						"description": "22 oz. bottl"
+					},
+					{
+						"name": "Sapporo",
+						"description": "12 oz. bottle"
+					},
+					{
+						"name": "Sapporo Premium Black",
+						"description": "22 oz. can"
+					}
+				]
+			},
+			"6": {
+				"heading": "Wine",
+				"items": [
+					{
+						"name": "Gekkeikan Plum",
+						"description": ""
+					},
+					{
+						"name": "Acrobat pinot gris",
+						"description": ""
+					},
+					{
+						"name": "Charles & Charles rose",
+						"description": ""
+					},
+					{
+						"name": "Eufloria sparkling",
+						"description": ""
+					},
+					{
+						"name": "7 moons red blend",
+						"description": ""
+					}
+				]
+			},
+			"7": {
+				"heading": "Other drinks",
+				"items": [
+					{
+						"name": "Iced Green Tea",
+						"description": "Strawberry | Raspberry | Pineapple | Mango | Peach | Lemon"
+					},
+					{
+						"name": "Soda & others",
+						"description": "Pepsi, Diet Pepsi, Sierra Mist, Dr. Pepper, Mtn. Dew, Root Beer, Orange Crush, Unsweetened Iced Tea, Lemonade, Arnold Palmer, Shirley Temple, Roy Rogers"
+					}
+				]
+			}
+		}
+}

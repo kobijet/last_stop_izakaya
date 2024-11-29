@@ -1,0 +1,165 @@
+img {
+    object-fit: cover;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.75rem;
+    margin-bottom: 2.75rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    flex: 1;
+}
+
+.img200 {
+    height: 200px;
+    width: 200px;
+    margin-top: 1.45rem;
+}
+
+.img300 {
+    height: 400px;
+    width: 400px;
+    margin-top: 1.45rem;
+}
+
+.img-floatright {
+    align-self: flex-end;
+}
+
+.img-floatcenter {
+    align-self: center;
+}
+
+/*
+    Hero styling
+*/
+#home {
+    margin: 0rem 1.45rem;
+}
+
+#home-header {
+    display: none;
+}
+
+#hero-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17rem;
+}
+
+#hero-title {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#hero-subtitle {
+    position: relative;
+    padding: 0 0.75rem;
+    margin-top: 0.45rem;
+    left: 6.75rem;
+    background-color: black;
+    color: white;
+}
+
+#hero-image {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 100rem;
+    height: 68vh;
+}
+
+#hero-logo {
+    position: absolute;
+    top: 0;
+    margin-top: 2rem;
+    max-height: 150px;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    position: relative;
+}
+
+button::after {
+    content: '';
+    display: block;
+    background-color: #e90101;
+    width: 8rem;
+    height: 3rem;
+    position: absolute;
+    top: 7px;
+    z-index: -1;
+
+    box-shadow: 0 2px 1px rgba(0,0,0,0.05), 
+    0 4px 2px rgba(0,0,0,0.05), 
+    0 8px 4px rgba(0,0,0,0.05), 
+    0 16px 8px rgba(0,0,0,0.05);
+}
+
+#hero-buttons {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h3 {
+    margin-top: 1.45rem;
+    text-shadow: 1px 1px 2px #e9e9e9;
+}
+
+#home-hours {
+    margin-top: 3.45rem;
+}
+
+#home-address {
+    text-align: right;
+}
+
+/*/
+    Info styling
+*/
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.75rem;
+    clear: both;
+}
+
+.info-title {
+    display: block;
+    width: 60%;
+    float: left;
+    position: relative;
+    top: 3.25rem;
+}
+
+.info-icon {
+    display: block;
+    margin-left: auto;
+    float: right;
+    margin-bottom: 1.75rem;
+}
+
+.info-icon p:first-of-type {
+    text-align: right;
+}
+
+.info button {
+    display: block;
+    margin-left: auto;
+    margin-top: 1.45rem;
+}

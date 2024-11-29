@@ -1,0 +1,60 @@
+#foodMenu-title
+{
+    margin-top: 8rem;
+    margin-bottom: 0.45rem;
+}
+
+#foodMenu-title,
+#foodMenu-description,
+#foodMenu{
+    margin-left: 1.45rem;
+    margin-right: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.img150 {
+    margin-top: 0;
+    flex-shrink: 0;
+    height: 150px;
+    width: 150px;
+}
+
+#foodMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItem {
+    margin-top: 1.45rem;
+    display: flex;
+    gap: 1.45rem;
+    padding: 0.45rem;
+}
+
+.menuItem img {
+    align-self: center;
+}
+
+.menuItem-name {
+    font-weight: 500;
+}
+
+.featured {
+    border: 2px solid black;
+}
+
+.addOns-item {
+    margin-top: 0.75rem;
+}
+
+.addOns-item:first-child {
+    margin-top: 0.75rem;
+}
+
+.addOns-section {
+    margin-bottom: 4.75rem;
+}
