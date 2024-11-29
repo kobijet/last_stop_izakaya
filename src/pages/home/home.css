@@ -5,10 +5,7 @@ img {
 .img-container {
     display: flex;
     flex-direction: column;
-    margin-top: 2.75rem;
-    margin-bottom: 2.75rem;
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
+    margin: 2.75rem 1.75rem;
     flex: 1;
 }
 
@@ -163,3 +160,14 @@ h3 {
     margin-left: auto;
     margin-top: 1.45rem;
 }
+
+@media screen and (min-width: 764px) {
+    #home, .img-container, .info {
+        margin: 0rem 8.45rem;
+    }
+
+    #hero-image {
+        height: 46vh;
+    }
+}
+

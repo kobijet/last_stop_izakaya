@@ -15,7 +15,7 @@ export default function Navbar() {
             document.querySelector("#nav-logo").style.display = "none";
         } else {
             document.querySelector("nav").style.display = "none";
-            document.querySelector("#navContainer").style.height = "12%";
+            document.querySelector("#navContainer").style.height = "6rem";
             document.querySelector("#nav-logo").style.display = "block";
         }
     }
@@ -32,7 +32,7 @@ export default function Navbar() {
                     <li><button><Link to="/last_stop_izakaya/" onClick={toggleNav}>Home</Link></button></li>
                     <li><button><Link to="/last_stop_izakaya/food" onClick={toggleNav}>Food</Link></button></li>
                     <li><button><Link to="/last_stop_izakaya/drinks" onClick={toggleNav}>Drinks</Link></button></li>
-                    <li><button><Link to="/last_stop_izakaya/contact" onClick={toggleNav}>Contact</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/" onClick={toggleNav}>Contact</Link></button></li>
                 </ul>
             </nav>
         </div>

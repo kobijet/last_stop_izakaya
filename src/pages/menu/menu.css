@@ -1,14 +1,13 @@
+#foodMenu-title,
+#foodMenu-description,
+#foodMenu{
+    margin: 0 1.45rem;
+}
+
 #foodMenu-title
 {
     margin-top: 8rem;
     margin-bottom: 0.45rem;
-}
-
-#foodMenu-title,
-#foodMenu-description,
-#foodMenu{
-    margin-left: 1.45rem;
-    margin-right: 1rem;
 }
 
 ul {
@@ -35,10 +34,6 @@ ul {
     padding: 0.45rem;
 }
 
-.menuItem img {
-    align-self: center;
-}
-
 .menuItem-name {
     font-weight: 500;
 }
@@ -57,4 +52,28 @@ ul {
 
 .addOns-section {
     margin-bottom: 4.75rem;
+}
+
+@media screen and (min-width: 764px) {
+    #foodMenu, #foodMenu-title, #foodMenu-description {
+        margin: 0rem 8.45rem;
+    }
+
+    #foodMenu-title
+    {
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #foodMenu section ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: (100px, auto);
+    }
+
+    .addOns-section {
+        grid-column: 1/3;
+    }
 }

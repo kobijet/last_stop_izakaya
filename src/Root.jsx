@@ -8,7 +8,7 @@ export default function Root() {
     const location = useLocation();
 
     useEffect(() => {
-        if (location.pathname == "/last_stop_izakaya/") {
+        if (location.pathname == "/last_stop_izakaya/" && window.innerWidth < 1024) {
             document.querySelector("#navContainer").style.display = "none";
         } else {
             document.querySelector("#navContainer").style.display = "flex";
@@ -34,10 +34,10 @@ export default function Root() {
                     <p>315 Pacific Avenue, Bremerton, WA 98337</p>
                 </div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/food">Food</Link></li>
-                    <li><Link to="/drinks">Drinks</Link></li>
-                    <li><Link to="/">Contact</Link></li>
+                    <li><Link to="/last_stop_izakaya/">Home</Link></li>
+                    <li><Link to="/last_stop_izakaya/food">Food</Link></li>
+                    <li><Link to="/last_stop_izakaya/drinks">Drinks</Link></li>
+                    <li><Link to="/last_stop_izakaya/">Contact</Link></li>
                 </ul>
             </footer>
         </>
