@@ -1,12 +1,30 @@
 import { LuAlignJustify } from "react-icons/lu";
 import { Link } from "react-router-dom";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Navbar() {
     const [linksActive, setLinksActive] = useState(false);
+    const [locked, setLocked] = useState(false);
+
+    useEffect(() => {
+        // Set navbar lock depending on window size
+        if (window.innerWidth >= 1024)
+        {
+            setLocked(true);
+
+        } else {
+            setLocked(false);
+        }
+
+        // Open navbar on initial lock
+        if (!locked)
+        {
+            toggleNav();
+        }
+    }, []);
 
     const toggleNav = () => {
-        const state = !linksActive;
+        const state = !linksActive * !locked;
         setLinksActive(state);
 
         if (state) {
@@ -20,19 +38,21 @@ export default function Navbar() {
         }
     }
 
+    const navFunction = "toggleNav";
+
     return (
         <div id="navContainer" className="shadow-high">
             <div id="nav-header">
-                <button id="nav-hamburger" onClick={toggleNav}><LuAlignJustify size={24} /></button>
+                <button id="nav-hamburger" onClick={navFunction}><LuAlignJustify size={24} /></button>
                 <Link id="nav-logo" to="/last_stop_izakaya/"><img src="/last_stop_izakaya/media/yoko_yoko_logo.png"/></Link>
             </div>
             <nav>
                 <ul>
-                    <li><Link to="/last_stop_izakaya/" onClick={toggleNav}><img src="/last_stop_izakaya/media/yoko_yoko_logo.png"/></Link></li>
-                    <li><button><Link to="/last_stop_izakaya/" onClick={toggleNav}>Home</Link></button></li>
-                    <li><button><Link to="/last_stop_izakaya/food" onClick={toggleNav}>Food</Link></button></li>
-                    <li><button><Link to="/last_stop_izakaya/drinks" onClick={toggleNav}>Drinks</Link></button></li>
-                    <li><button><Link to="/last_stop_izakaya/" onClick={toggleNav}>Contact</Link></button></li>
+                    <li><Link to="/last_stop_izakaya/" onClick={navFunction && !locked}><img src="/last_stop_izakaya/media/yoko_yoko_logo.png"/></Link></li>
+                    <li><button><Link to="/last_stop_izakaya/" onClick={navFunction && !locked}>Home</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/food" onClick={navFunction && !locked}>Food</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/drinks" onClick={navFunction && !locked}>Drinks</Link></button></li>
+                    <li><button><Link to="/last_stop_izakaya/" onClick={navFunction && !locked}>Contact</Link></button></li>
                 </ul>
             </nav>
         </div>

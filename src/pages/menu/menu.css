@@ -66,6 +66,15 @@ ul {
 }
 
 @media screen and (min-width: 1024px) {
+    #foodMenu, #foodMenu-title, #foodMenu-description {
+        margin-left: 18rem;
+        padding: 0rem;
+    }
+
+    #foodMenu-description {
+        margin-bottom: 4.75rem;
+    }
+    
     #foodMenu section ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

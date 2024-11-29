@@ -31,7 +31,7 @@ export default function Home() {
                     <p>315 Pacific Avenue, Bremerton, WA 98337</p>
                 </div>
             </section>
-
+            <content>
             {/*
                 Izakaya section
             */}
@@ -79,6 +79,7 @@ export default function Home() {
                 buttontext="View drinks"
                 link="drinks"
             />
+            </content>
         </>
     );
 }

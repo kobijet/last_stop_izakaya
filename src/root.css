@@ -152,4 +152,24 @@ footer ul {
 }
 
 @media screen and (min-width: 1024px) {
+    #navContainer {
+        justify-content: flex-start;
+        width: 12rem;
+    }
+
+    nav img {
+        max-width: 125px;
+        object-fit: cover;
+        padding: 0.25rem 0.45rem;
+        position: relative;
+    }
+
+    #nav-hamburger {
+        display: none;
+    }
+
+    footer {
+        margin-left: 18rem;
+        padding: 4.75rem 8.45rem;
+    }
 }

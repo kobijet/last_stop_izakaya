@@ -23,7 +23,7 @@ export default function Food() {
     return (
         <>
             <h2 id="foodMenu-title">Food</h2>
-            <p id="foodMenu-description">Authentically Japanese and positively delicious, our izakaya serves plenty of delectable, customizable plates. Whether you need a small ramen bowl for a snack or a hearty japanese curry to get you on your way, we have plates of all sizes to suit all tastes.</p>
+            <p id="foodMenu-description">Authentically Japanese, and positively delicious, our izakaya serves plenty of delectable, customizable plates. Whether you need a small ramen bowl for a snack or a hearty japanese curry to get you on your way, we have plates of all sizes to suit all tastes.</p>
             <section id="foodMenu">
                 {menuSections}
             </section>
